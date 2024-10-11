@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+#user-form {
+    margin-top: 20%;
+}
+
+input, button {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+#game {
+    display: none;
+}
+
+.button {
+    font-size: 14px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.btn-start {
+    background-color: #555;
+    color: white;
+    border-radius: 6px;
+}
+.btn-start:hover {
+    background-color: lightgray;
+}
+
+.btn-red {
+    background-color: #b71c1c;
+    transition: background-color 0.7s;
+}
+.btn-lightred {
+    background-color: #f44336;
+}
+
+.btn-yellow {
+    background-color: #ffeb3b;
+    transition: background-color 0.7s;
+}
+.btn-lightyellow {
+    background-color: #fff59d;
+}
+
+.btn-blue {
+    background-color: #1e88e5;
+    transition: background-color 0.7s;
+}
+.btn-lightblue {
+    background-color: #90caf9;
+}
+
+.btn-green {
+    background-color: #43a047;
+    transition: background-color 0.7s;
+}
+.btn-lightgreen {
+    background-color: #81c784;
+}
