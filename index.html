@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Gay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="user-form">
+        <h2>Authorization</h2>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button id="submit-name">Submit</button>
+    </div>
+
+    <div id="game" style="display: none;">
+        <h2>Simon Game</h2>
+        <button data-key="0" data-light="btn-lightgreen" type="button" class="button btn-green"></button>
+        <button data-key="1" data-light="btn-lightred" type="button" class="button btn-red"></button>
+        <button data-key="2" data-light="btn-lightyellow" type="button" class="button btn-yellow"></button>
+        <button data-key="3" data-light="btn-lightblue" type="button" class="button btn-blue"></button>
+
+        <p class="p1">Ready?&nbsp;&nbsp;&nbsp;<button id="start" class="btn-start" type="button">Start</button></p>
+        <p id="level">Current Level: 1&nbsp;&nbsp;&nbsp;Best Level: 1</p>
+        <b id="status" style="color:white;font-size:20px">Click Start to play</b>
+
+        <h3>User Records</h3>
+        <ul id="user-records"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
